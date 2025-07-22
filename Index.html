@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Tailwindcss-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <!-- font awasom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="scroll-smooth">
+    <!-- Delete offer element -->
+    <section>
+        <div class="bg-black flex justify-center gap-3 p-5" id="removeitem">
+            <h1 class="text-white">Sing up get 20% offer for your first order</h1>
+            <p class="text-white cursor-pointer" id="firstcut">X</p>
+        </div>
+        <!-- Navigaton bar -->
+        <nav class="flex  justify-between p-5">
+            <div>
+                <h3 class="text-3xl font-bold">Nastra</h3>
+            </div>
+            <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6 h-6 w-6 md:hidden cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <div class=" gap-5 hidden md:flex">
+                <p class="hover:underline hover:text-black font-bold">Home</p>
+                <a class="hover:underline hover:text-black font-bold" id="newarrivals-link" href="#newarraivals">New
+                    Araival</a>
+                <a class="hover:underline hover:text-black font-bold" id="mostwanted-link" href="#mostwanted">Most
+                    Wanted</a>
+                <a class="hover:underline hover:text-black font-bold" href="collection.html">Collections</a>
+                <a class="hover:underline hover:text-black font-bold" href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </section>
+    <!-- Side Navbar -->
+    <section id="sidenav" class="bg-black fixed z-20 top-0 transition-all duration-1000 "
+        style="width:50%; height: 100vh; left:-50%;">
+        <div class="text-right p-5 text-white">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <div class="flex flex-col items-center gap-5 text-white ">
+            <a class="hover:underline hover:text-black font-bold" href="Index.html">Home</>
+                <a class="hover:underline hover:text-black font-bold" id="newarrivals-link" href="#newarraivals">New
+                    Araival</a>
+                <a class="hover:underline hover:text-black font-bold" id="mostwanted-link" href="#mostwanted">Most
+                    Wanted</a>
+                <a class="hover:underline hover:text-black font-bold" href="collection.html">Collections</a>
+                <a class="hover:underline hover:text-black font-bold" href="contact.html">Contact Us</a>
+            
+        </div>
+    </section>
+
+    <!-- advertaisment immagae -->
+    <section>
+
+        <div class="flex justify-center" style="width: 100%;">
+            <div class="relative inline-block" style="width: 80%;">
+                <img src="./images/ad2.png" class="rounded opacity-50" style="width: 100%;">
+                <h1 class="text-3xl font-bold text-black absolute top-20 left-56 ">Level up ypur style with our</h1>
+                <p class="absolute top-28 left-56 text-3xl font-bold text-black">Summer Collections</p>
+                <button class="absolute top-40 left-56 text-black bg-white rounded p-2">Shop Now</button>
+                <img src="./images/greater than.png" class="w-16 absolute right-4 top-24 cursor-pointer " >
+                <img src="./images/less than.png" alt="" class="w-16 absolute left-4 top-24 cursor-pointer">
+            </div>
+
+        </div>
+       
+
+
+    </section>
+    <!-- Brand session -->
+    <section>
+        <h1 class="text-3xl font-bold mt-5 p-5">Brand</h1>
+        <div class="flex justify-evenly mt-5 items-center">
+            <div>
+                <img src="./images/puma1.jpg" class="w-16 h-16">
+                <p>Puma</p>
+            </div>
+            <div>
+                <img src="./images/allen solly.png" class="w-16 h-16">
+                <p>Allen Solly</p>
+            </div>
+            <div>
+                <img src="./images/zara.png" class="w-16 h-16">
+                <p>Zara</p>
+            </div>
+            <div>
+                <img src="./images/chanel.png" class="w-16 h-16">
+                <p>Channel</p>
+            </div>
+            <div>
+                <img src="./images/h&m.png" class="w-16 h-16">
+                <p>H&M</p>
+            </div>
+            <div>
+                <img src="./images/guss.png" class="w-16 h-16">
+                <p>Guss</p>
+            </div>
+            <div>
+                <img src="./images/nike.jpg" class="w-16 h-16">
+                <p>Nike</p>
+            </div>
+            <div>
+                <img src="./images/adidas.png" class="w-16 h-16">
+                <p>Adidas</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- section three -->
+    <section>
+        <div class="flex justify-between items-center mt-10 p-5">
+            <div>
+                <h3 class="text-1xl md:text-3xl font-bold mt-5">We Provide Best</h3>
+                <h1 class="text-1xl md:text-3xl font-bold">Customer Experiences</h1>
+            </div>
+            <div>
+                <p class="font-bold md:text-2xl">|| We ensure that our customer have the best shopping experience</p>
+            </div>
+        </div>
+        <!-- icone informations -->
+        <div class="flex">
+            <div class="bg-gray-300 p-5 m-5" style="width: 22%;">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-16">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <h3>Original Products</h3>
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eos.</p>
+            </div>
+            <div class="bg-gray-300 w-20% p-5 m-5" style="width: 22%;">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-16">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+                </svg>
+
+                <h3>Original Products</h3>
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eos.</p>
+            </div>
+            <div class="bg-gray-300 w-20% p-5 m-5" style="width: 22%;">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-16">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+                </svg>
+
+                <h3>Original Products</h3>
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eos.</p>
+            </div>
+            <div class="bg-gray-300 w-20% p-5 m-5" style="width: 22%;">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-16">
+                    <path
+                        d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                </svg>
+
+                <h3>Original Products</h3>
+                <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, eos.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- New arrivals -->
+    <section id="newarrivals">
+        <h1 class="text-2xl font-bold mt-5">New Arrivals</h1>
+        <div class=" mt-5 gap-1 grid grid-cols-4" style="width: 100%;">
+            <div class=" opacity-80 relative inline-block">
+                <img src="./images/f6.jpg">
+                <button class="bg-white bottom-16 left-14 absolute md:bottom-32 md:left-36 rounded p-1">Shop
+                    Now</button>
+            </div>
+            <div class=" opacity-80 relative inline-block">
+                <img src="./images/f4.jpg">
+                <button class="bg-white bottom-16 left-14 absolute rounded p-1 md:bottom-32 md:left-36">Shop
+                    Now</button>
+            </div>
+            <div class=" opacity-80 relative inline-block">
+                <img src="./images/f1 (1).jpg">
+                <button class="bg-white bottom-16 left-14 absolute rounded p-1 md:bottom-32 md:left-36">Shop
+                    Now</button>
+            </div>
+            <div class=" opacity-80 relative inline-block">
+                <img src="./images/f3 (1).jpg">
+                <button class="bg-white bottom-16 left-14 absolute rounded p-1 md:bottom-32 md:left-36">Shop
+                    Now</button>
+            </div>
+        </div>
+    </section>
+    <!-- Most wanted session -->
+    <section id="mostwanted">
+        <h1 class="text-2xl font-bold mt-5">Most Wanted</h1>
+        <div class="flex overflow-x-auto space-x-4 p-4 snap-x snap-mandatory" style="width: 100%;">
+
+            <div class="relative inline-block" style="width: 20%;">
+                <img src="./images/f4.jpg">
+                <p class="bg-red-400 inline p-2 rounded text-white absolute top-1 left-1">Sale</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6 bg-white  rounded-xl absolute right-2 bottom-2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>
+            </div>
+            <div class="relative inline-block" style="width: 20%;">
+                <img src="./images/f5.jpg">
+                <p class="bg-red-400 inline p-2 rounded text-white absolute top-1 left-1">Sale</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6 bg-white  rounded-xl absolute right-2 bottom-2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>
+            </div>
+            <div class="relative inline-block" style="width: 20%;">
+                <img src="./images/f2.jpg">
+                <p class="bg-red-400 inline p-2 rounded text-white absolute top-1 left-1">Sale</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6 bg-white  rounded-xl absolute right-2 bottom-2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>
+            </div>
+            <div class="relative inline-block" style="width: 20%;">
+                <img src="./images/f6 (1).jpg">
+                <p class="bg-red-400 inline p-2 rounded text-white absolute top-1 left-1">Sale</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6 bg-white  rounded-xl absolute right-2 bottom-2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>
+            </div>
+            <div class="relative inline-block" style="width: 20%;">
+                <img src="./images/f1 (1).jpg">
+                <p class="bg-red-400 inline p-2 rounded text-white absolute top-1 left-1">Sale</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6 bg-white  rounded-xl absolute right-2 bottom-2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>
+            </div>
+             <div class="relative inline-block" style="width: 20%;">
+                <img src="./images/f4.jpg">
+                <p class="bg-red-400 inline p-2 rounded text-white absolute top-1 left-1">Sale</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6 bg-white  rounded-xl absolute right-2 bottom-2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>
+            </div>
+             <div class="relative inline-block" style="width: 20%;">
+                <img src="./images/f1 (1).jpg">
+                <p class="bg-red-400 inline p-2 rounded text-white absolute top-1 left-1">Sale</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6 bg-white  rounded-xl absolute right-2 bottom-2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>
+            </div>
+            
+          
+        </div>
+
+    </section>
+
+
+    <!-- Second advertaisment -->
+    <section class="flex bg-black mt-10 ">
+        <div class="p-5 md:ml-80">
+            <img src="./images/ad-1.jpg" class="opacity-70">
+        </div>
+        <div class="p-5">
+            <!-- <h1>Limted offer</h1>
+            <h3>35% OFF on this for the first 30</h3>
+            <h3>Suctomers</h3> -->
+            <pre class="text-white mt-10">
+ Limted offer
+ 35% OFF on this for the first 30
+ Suctomers
+</pre>
+            <button class="text-black rounded p-2 bg-white">Shop Now</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Subscription session -->
+    <section class="mt-4">
+        <div>
+            <div class="text-center">
+                <h1>Join our News Letter</h1>
+                <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+                <input type="text" class="border border-black p-2 mt-5 rounded-2xl" style="width: 80%;"><br>
+                <button class="bg-black text-white p-2 mt-1 rounded">Subscribe</button>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- footer session -->
+    <section class="bg-black mt-10 p-5">
+        <h1 class="text-white text-3xl p-3 font-bold ">Nastra</h1>
+        <p class="text-white mt-3 p-3 text-1xl ">The Standard chunk of Lorem ipsum used since the 1500s is reprodused
+            below for those
+            interest</p>
+        <div>
+            <ul class="flex gap-10 mt-4 ml-3 w-44">
+                <li>
+                    <i class="fa-brands fa-instagram" style="color: #e7eaee;"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-youtube" style="color: #f7f7f7;"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-twitter" style="color: #eaeaeb;"></i>
+                </li>
+            </ul>
+        </div>
+        <p class="text-white mt-5 ">@ 2023 Nostra.com</p>
+    </section>
+
+    <script src="index.js"></script>
+ 
+</body>
+
+</html>

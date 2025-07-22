@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Tailwindcss-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+           <!-- Navigaton bar -->
+           <nav class="flex  justify-between p-5">
+            <div>
+                <h3 class="text-3xl font-bold">Nastra</h3>
+            </div>
+            <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6 h-6 w-6 md:hidden cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <div class=" gap-5 hidden md:flex">
+                <a class="hover:underline hover:text-black font-bold" href="Index.html">Home</a>
+                <a class="hover:underline hover:text-black font-bold" id="newarrivals-link"
+                 href="#newarraivals">New Araival</a>
+                <a class="hover:underline hover:text-black font-bold" id="mostwanted-link" href="#mostwanted">Most Wanted</a>
+                <a class="hover:underline hover:text-black font-bold" href="collection.html">Collections</a>
+                <a class="hover:underline hover:text-black font-bold" href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </section>
+     <!-- Side Navbar -->
+    <section id="sidenav" class="bg-black fixed z-20 top-0 transition-all duration-1000 "
+        style="width:50%; height: 100vh; left:-50%;">
+        <div class="text-right p-5 text-white">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <div class="flex flex-col items-center gap-5 text-white ">
+            <a class="hover:underline hover:text-black font-bold" href="Index.html">Home</>
+                <a class="hover:underline hover:text-black font-bold" id="newarrivals-link" href="#newarraivals">New
+                    Araival</a>
+                <a class="hover:underline hover:text-black font-bold" id="mostwanted-link" href="#mostwanted">Most
+                    Wanted</a>
+                <a class="hover:underline hover:text-black font-bold" href="collection.html">Collections</a>
+                <a class="hover:underline hover:text-black font-bold" href="contact.html">Contact Us</a>
+            
+        </div>
+    </section>
+    <!-- Secondhald -->
+    <section class="grid grid-cols-2 gap-5" style="grid-template-columns: 1fr 3fr;">
+        <div class="p-10" style="border-right: solid black 3px;">
+            <div>
+                <h1 class="font-bold" name="box">Occasion</h1>
+                <input type="checkbox" name="box">Summer<br>
+                <input type="checkbox"name="box">Party<br>
+                <input type="checkbox"name="box">Beach<br>
+            </div>
+            <div class="mt-10 gap-5">
+                <h1 class="font-bold">Colors</h1>
+                <input type="checkbox"name="box">Red<br>
+                <input type="checkbox"name="box">Blue<br>
+                <input type="checkbox"name="box">White<br>
+                <input type="checkbox"name="box">Green<br>
+            </div>
+            <div class="mt-5 ">
+                <h1 class="font-bold">Arrivals</h1>
+                <input type="checkbox"name="box">New<br>
+                <input type="checkbox"name="box">Old<br>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="flex rounded-xl p-1 justify-between" style="border: solid black 2px;">
+                <input type="text" placeholder="Search" class="outline-none" id="Search"style="width: 100%;"  >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 w-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+
+            </div>
+            <!-- salesimmage -->
+            <div class="grid grid-cols-3 gap-5 mt-10" id="productcontainer">
+                <div>
+                    <img src="./images/f1 (1).jpg">
+                    <h1>Floral Summer Shirt</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/f2.jpg">
+                    <h1>Summer Green</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/f3.jpg">
+                    <h1>Party Floral Shirt</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/f4.jpg">
+                    <h1>Floral Summer Shirt</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/f5.jpg">
+                    <h1>Beach Shirt</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/f6 (1).jpg">
+                    <h1>Shirt Party Red</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/f1 (1).jpg">
+                    <h1>Party Floral Shirt</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/f4.jpg">
+                    <h1>Shirt party Red</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/f5.jpg">
+                    <h1>Floral Summer Shirt</h1>
+                    <p>$20</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+      <!-- Subscription session -->
+    <section class="mt-4">
+        <div>
+            <div class="text-center">
+                <h1>Join our News Letter</h1>
+                <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+                <input type="text" class="border border-black p-2 mt-5 rounded-2xl" style="width: 80%;" ><br>
+                <button class="bg-black text-white p-2 mt-1 rounded">Subscribe</button>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- footer session -->
+    <section class="bg-black mt-10 p-5">
+        <h1 class="text-white text-3xl p-3 font-bold">Nastra</h1>
+        <p class="text-white mt-3 p-3 text-1xl ">The Standard chunk of Lorem ipsum used since the 1500s is reprodused
+            below for those
+            interest</p>
+        <div>
+            <ul class="flex gap-10 mt-4 ml-3 w-44">
+                <li>
+                    <i class="fa-brands fa-instagram" style="color: #e7eaee;"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-youtube" style="color: #f7f7f7;"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-twitter" style="color: #eaeaeb;"></i>
+                </li>
+            </ul>
+        </div>
+        <p class="text-white mt-5 ">@ 2023 Nostra.com</p>
+    </section>
+
+
+ <script src="collection.js"></script>
+</body>
+
+</html>
