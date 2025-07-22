@@ -1,13 +1,5 @@
 # Nostra
-/nostra
-│
-├── index.html             # Homepage
-├── collection.html        # Collection/Product Listing
-├── contact.html           # Contact form/page
-├── style.css              # Custom styles (optional, Tailwind utility used mostly)
-├── script.js              # JavaScript for search, interactivity
-├── /images                # Product and banner images
-└── /assets                # (Optional) icons, fonts, etc.
+ 
 🚀 Features
 🧥 Modern landing page layout with hero banners
 
@@ -27,6 +19,5 @@ HTML5
 Tailwind CSS
 
 Vanilla JavaScript
-
-(Optional) GitHub Pages / Vercel for deployment
+ 
 
